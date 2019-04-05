@@ -13,7 +13,6 @@ public class SomeClass
 {
 	public int Field;
 
-    [MethodImpl(MethodImplOptions.AggressiveInlining)]
 	public void DoSomething()
 	{
 		Console.WriteLine(this.Field.ToString());
